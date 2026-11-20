@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>अपना होटल - सुब्बन बिरयानी वाले</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Noto Sans Devanagari", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    body {
+      background: #fff7ed;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 16px;
+    }
+    .card {
+      background: #ffffff;
+      width: 100%;
+      max-width: 430px;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(124, 45, 18, 0.12);
+      height: fit-content;
+    }
+    .header {
+      background: linear-gradient(135deg, #9a3412, #ea580c);
+      color: #ffffff;
+      text-align: center;
+      padding: 28px 20px 24px;
+    }
+    .owner-photo {
+      width: 98px;
+      height: 98px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: top;
+      border: 3px solid #fde68a;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+      margin-bottom: 12px;
+      background: #ffffff;
+    }
+    .shop-badge {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 4px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+      margin-bottom: 8px;
+    }
+    .header h1 {
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .header p {
+      font-size: 15px;
+      opacity: 0.95;
+    }
+    .quick-actions {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      background: #7c2d12;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .quick-actions a {
+      color: #ffffff;
+      text-decoration: none;
+      text-align: center;
+      padding: 14px 8px;
+      font-size: 13px;
+      font-weight: 600;
+      border-right: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .quick-actions a:last-child {
+      border-right: none;
+    }
+    .quick-actions span {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+    .cta-wrap {
+      padding: 20px 20px 8px;
+    }
+    .whatsapp-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      background: #25d366;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      padding: 14px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+    }
+    .details {
+      padding: 12px 20px 24px;
+    }
+    .row {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 16px 0;
+      border-bottom: 1px solid #fed7aa;
+    }
+    .row:last-child {
+      border-bottom: none;
+    }
+    .icon {
+      font-size: 20px;
+      width: 28px;
+      text-align: center;
+      margin-top: 2px;
+    }
+    .info h3 {
+      font-size: 15.5px;
+      color: #1c1917;
+      font-weight: 700;
+      margin-bottom: 3px;
+    }
+    .info p {
+      font-size: 14px;
+      color: #57534e;
+      line-height: 1.5;
+    }
+    .price-tag {
+      display: inline-block;
+      margin-top: 6px;
+      background: #fff7ed;
+      color: #9a3412;
+      border: 1px solid #fdba74;
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 13.5px;
+      font-weight: 700;
+    }
+    .map-link {
+      display: inline-block;
+      margin-top: 8px;
+      color: #c2410c;
+      font-size: 13.5px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .save-btn {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+      padding: 13px;
+      background: #fff7ed;
+      color: #9a3412;
+      border: 1.5px solid #fdba74;
+      border-radius: 12px;
+      font-size: 14.5px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <img src="IMG-20261120-WA0000~2.jpg" alt="सुब्बन बिरयानी वाले" class="owner-photo" />
+      <div class="shop-badge">अपना होटल</div>
+      <h1>सुब्बन बिरयानी वाले</h1>
+      <p>प्रो. सुब्बन बिरयानी वाले</p>
+    </div>
+
+    <div class="quick-actions">
+      <a href="tel:+918114286389"><span>📞</span>कॉल करें</a>
+      <a href="https://wa.me/918114286389" target="_blank"><span>💬</span>व्हाट्सएप</a>
+      <a href="https://maps.app.goo.gl/hKTvPpGAvpCYvXUPA?g_st=ac" target="_blank"><span>📍</span>लोकेशन</a>
+    </div>
+
+    <div class="cta-wrap">
+      <a class="whatsapp-btn" href="https://wa.me/918114286389" target="_blank">
+        व्हाट्सएप पर ऑर्डर / चैट करें
+      </a>
+    </div>
+
+    <div class="details">
+      <div class="row">
+        <div class="icon">📱</div>
+        <div class="info">
+          <h3>+91 8114286389</h3>
+          <p>मोबाइल और व्हाट्सएप नंबर</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="icon">🍛</div>
+        <div class="info">
+          <h3>अपना होटल</h3>
+          <p>सुब्बन बिरयानी वाले</p>
+          <span class="price-tag">1 फुल प्लेट बिरयानी ₹60</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="icon">⏰</div>
+        <div class="info">
+          <h3>दुकान खुलने का समय</h3>
+          <p>सुबह 10:00 बजे से रात 8:00 बजे तक</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="icon">📍</div>
+        <div class="info">
+          <h3>पता / लोकेशन</h3>
+          <p>गूगल मैप्स पर दुकान की सही लोकेशन देखने के लिए नीचे क्लिक करें</p>
+          <a class="map-link" href="https://maps.app.goo.gl/hKTvPpGAvpCYvXUPA?g_st=ac" target="_blank">
+            गूगल मैप्स पर देखें →
+          </a>
+        </div>
+      </div>
+
+      <button class="save-btn" onclick="downloadVCard()">
+        + फ़ोन में नंबर सेव करें
+      </button>
+    </div>
+  </div>
+
+  <script>
+    function downloadVCard() {
+      const vcard = [
+        "BEGIN:VCARD",
+        "VERSION:3.0",
+        "N:बिरयानी वाले;सुब्बन;;;",
+        "FN:सुब्बन बिरयानी वाले - अपना होटल",
+        "ORG:अपना होटल",
+        "TEL;TYPE=CELL,VOICE:+918114286389",
+        "URL:https://maps.app.goo.gl/hKTvPpGAvpCYvXUPA?g_st=ac",
+        "END:VCARD"
+      ].join("\n");
+
+      const blob = new Blob([vcard], { type: "text/vcard;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "Subban_Biryani_Wale_Apna_Hotel.vcf";
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+  </script>
+</body>
+</html>
